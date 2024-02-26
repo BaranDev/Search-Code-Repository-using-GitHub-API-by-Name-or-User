@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Code Search Template</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .centered-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <script type="module">
+        import { Octokit } from "https://esm.sh/@octokit/rest";
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>GitHub Code Search</h1>
+        <form id="searchForm" class="centered-form">
+            <input type="text" id="searchInput" class="search-input" placeholder="Enter search term..." style="margin-bottom: 10px;">
+            <button type="submit" style="padding: 10px;">Search</button>
+        </form>
+        <div style="overflow-y: scroll; height: calc(100vh - 160px);">
+            <table id="results" class="search-results" style="width:100%;">
+            </table>
+        </div>
+    </div>
+    <script type="module" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
