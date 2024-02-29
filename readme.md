@@ -42,6 +42,10 @@ To obtain a GitHub personal access token:
 
 ## Shields
 
-![GitHub language count](https://img.shields.io/github/languages/count/barandev/Search-Code-Repository-using-GitHub-API-by-Name-or-User)
-![GitHub top language](https://img.shields.io/github/languages/top/barandev/Search-Code-Repository-using-GitHub-API-by-Name-or-User)
-![GitHub repo size](https://img.shields.io/github/repo-size/barandev/Search-Code-Repository-using-GitHub-API-by-Name-or-User)
+![GitHub language count](https://img.shields.io/github/languages/count/barandev/Search-Code-using-Github-API)
+![GitHub repo size](https://img.shields.io/github/repo-size/barandev/Search-Code-using-Github-API)
+[![License](https://img.shields.io/github/license/barandev/Tetris-Game-Template)](https://github.com/barandev/Tetris-Game-Template/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/barandev/Search-Code-using-Github-API)](https://github.com/barandev/Search-Code-using-Github-API/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/barandev/Search-Code-using-Github-API)](https://github.com/barandev/Search-Code-using-Github-API/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/barandev/Search-Code-using-Github-API)](https://github.com/barandev/Search-Code-using-Github-API/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/barandev/Search-Code-using-Github-API)](https://github.com/barandev/Search-Code-using-Github-API/network)
